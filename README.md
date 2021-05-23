@@ -120,10 +120,10 @@ create_tables.py script performs the following operations:
 
 ## Quick start
 
-1) Install Anaconda and create a new virtual environment with python3.8 with the following these instructions:
+1) Install Anaconda (if you don't have it already) and create a new virtual environment with python3.8 with the following these instructions:
     - https://docs.anaconda.com/anaconda/install/linux/
     - https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/   (until point 4))
 
-2) Run the shell script "run_scripts.sh" to install the requirements and create the schema, tables, populate the tables with data. Open the terminal window (Linux) and run the following command: ./scripts/shell/run_scripts.sh
+2) Run the shell script "run_scripts.sh" to install the requirements and create the schema, tables, populate the tables with data. Open the terminal window (Linux) and run the following command: ```./scripts/shell/run_scripts.sh```
 
-3) Go to notebooks directory and run the tests.ipynb jupyter notebook. Run the cells to test the correctness queries
+3) Go to notebooks directory and run the `tests.ipynb` jupyter notebook. Run the cells to test the correctness queries
