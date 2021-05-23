@@ -80,10 +80,10 @@ And below is an example of what the data in a log file, 2018-11-12-events.json (
 
 In the scripts/python/sql_queries.py you will find the queries passed as a list to other scripts and notebooks through 'from sql_queries import \*' statement. The queries perform the following operations:
 
-1) drop tables if they already exist
-2) create the tables according to the schema defined above
-3) populate the tables with data
-4) search for the song_id and artist_id based on song_title, artist_name and duration passed from script/notebook 
+- drop tables if they already exist
+- create the tables according to the schema defined above
+- populate the tables with data
+- search for the song_id and artist_id based on song_title, artist_name and duration passed from script/notebook 
 
 ## Create tables
 
@@ -118,11 +118,11 @@ create_tables.py script performs the following operations:
 #### 'etl.ipynb' contains a detailed description of each of these steps
 #### 'etl.py' is the script executing all the pre-processing and queries necessary to populate the tables 
 
-
-
 ## Quick start
 
-1) Install Anaconda and create a new virtual environment with python3.8 with the following commands: 
+1) Install Anaconda and create a new virtual environment with python3.8 with the following these instructions:
+    - https://docs.anaconda.com/anaconda/install/linux/
+    - https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/   (until point 4))
 
 2) Run the shell script "run_scripts.sh" to install the requirements and create the schema, tables, populate the tables with data. Open the terminal window (Linux) and run the following command: ./scripts/shell/run_scripts.sh
 
