@@ -22,7 +22,7 @@ The schema is optimized for queries on song play analysis.
 ![plot](./pictures/ERD.png)
 
 ## Structure of the project
-`
+```bash
 ├── data
 │   ├── log_data
 │   │   └── 2018
@@ -45,7 +45,7 @@ The schema is optimized for queries on song play analysis.
     ├── python
     │   └── __pycache__
     └── shell
-`
+```
 
 - data: contains the raw data in .json format
 - scripts: contains python scripts and shell script 
