@@ -11,7 +11,7 @@ Imagine the following scenario:
 
 ## Data Model 
 
-Below you can see the ERD diagram with star schema for this project. I created this picture using https://dbdiagram.io/ website for free. The file "ERD.txt" contains the instructions on how to recreate such a diagram directly in the website. 
+Below you can see the ERD with star schema for this project. I created this picture using https://dbdiagram.io/ website for free. The file "ERD.txt" contains the instructions on how to recreate such a diagram directly in the website. 
 
 - Fact table: songplays
 
